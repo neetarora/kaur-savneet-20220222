@@ -1,0 +1,33 @@
+{
+  "name": "dvp-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "dvp-token": "node src/dvpToken.js"
+  },
+  "author": "Savneet Kaur",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@moebius/http-graceful-shutdown": "^1.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "dotenv": "^7.0.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "nodemailer": "^6.7.2",
+    "nodemon": "~1.18.8",
+    "q": "^1.5.1",
+    "string-format": "^2.0.0",
+    "uuid4": "^1.1.4",
+    "winston": "^3.6.0",
+    "winston-loggly-bulk": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "5.6.1"
+  }
+}
